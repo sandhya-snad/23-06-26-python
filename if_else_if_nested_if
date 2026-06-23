@@ -1,0 +1,28 @@
+
+
+marks = 85
+
+if marks >= 35:
+    print("Student Passed")
+
+    if marks >= 90:
+        print("Grade: A+")
+    else:
+        if marks >= 75:
+            print("Grade: A")
+        else:
+            if marks >= 60:
+                print("Grade: B")
+            else:
+                print("Grade: C")
+else:
+    print("Student Failed")
+
+
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
